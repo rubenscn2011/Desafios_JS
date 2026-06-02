@@ -21,10 +21,11 @@ const pessoa= {
    console.log(pessoa);
    console.log(pessoa.nome);
    console.log(pessoa.idade);
-   pessoa.idade = 18;
+   pessoa.idade = "18";
    
-   pessoa.profissão ="Técnico em Desenvolvimento de Sistemas"
+   pessoa.profissão ="Técnico em Desenvolvimento de Sistemas";
    delete pessoa.cidade;
+   console.log (pessoa);
 
 
    
