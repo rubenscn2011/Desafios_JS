@@ -13,19 +13,19 @@ Regras:
 Exiba uma mensagem informando a situação do aluno.
 */
 function verificarAluno (nome, nota) {
-     if (nota >=7) {
+     if(nota >=7) {
         console.log(nome + "está aprovado(a)");
 } 
-    else{ (nota >=5) {
+    else(nota >=5) {
         console.log(nome + "está em recuperação");
 }
-    else (nota >= 5){
+    else(nota >= 5){
         console.log(nome + "reprovado(a)");
     }
-     x
+     
 }
    
 
-verificarAluno(" Rubens Erik, 7);
-verificarAluno("Rubens, 5.5);
-verificarAluno("Camila, 4");
+verificarAluno("Rubens Erik", 7);
+verificarAluno("Rubens", 5.5);
+verificarAluno("Camila", 4);
